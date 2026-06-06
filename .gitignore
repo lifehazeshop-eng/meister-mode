@@ -1,0 +1,30 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Backups
+*.bak
+*~
+
+# Local overrides
+.env
+.env.local
+local/
+
+# Test / build artifacts
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Meister runtime
+.meister-backup-*/
+.meister-state/
